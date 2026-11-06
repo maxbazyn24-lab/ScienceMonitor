@@ -35,7 +35,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract project archive
-        run: unzip -q ScienceMonitor_source_v0.1.2.zip -d .
+        run: unzip -q ScienceMonitor_source_v0.3.0.zip -d .
 
       - name: Build debug APK
         working-directory: ScienceMonitor
